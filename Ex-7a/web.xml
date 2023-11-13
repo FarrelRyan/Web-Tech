@@ -1,0 +1,21 @@
+<web-app>
+    <servlet>
+        <servlet-name>StoreMovie</servlet-name>
+        <servlet-class>StoreMovie</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StoreMovie</servlet-name>
+        <url-pattern>/storemovie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AccessMovie</servlet-name>
+        <servlet-class>AccessMovie</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AccessMovie</servlet-name>
+        <url-pattern>/accessmovie</url-pattern>
+    </servlet-mapping>
+</web-app>

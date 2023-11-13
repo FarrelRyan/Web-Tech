@@ -1,0 +1,21 @@
+<web-app>
+    <servlet>
+      <servlet-name>MovieServlet</servlet-name>
+      <servlet-class>MovieServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MovieServlet</servlet-name>
+        <url-pattern>/movie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>ShowMoviesServlet</servlet-name>
+      <servlet-class>ShowMoviesServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowMoviesServlet</servlet-name>
+        <url-pattern>/showmovies</url-pattern>
+    </servlet-mapping>
+</web-app>

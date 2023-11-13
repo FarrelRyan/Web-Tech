@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Data</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Movie Data</h1>
+        </center>
+    </header>
+
+    <div class="container">
+        <form class="flex-col" onsubmit="fetchMovieData(event)">
+            <label for="movie">Select a Movie</label>
+            <select id="movie" onchange="handleSelect(event)">
+                <option value="-">-</option>
+                <option value="movie1">Movie 1</option>
+                <option value="movie2">Movie 2</option>
+                <option value="movie3">Movie 3</option>
+                <!-- Add more movie options as needed -->
+            </select>
+            <input type="submit" value="Fetch" />
+        </form>
+        <div class="flex-col" id="movie-data"></div>
+    </div>
+
+    <footer>
+        <center>
+            <h6>Copyright &copy; 2023</h6>
+        </center>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
