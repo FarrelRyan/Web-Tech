@@ -1,0 +1,21 @@
+<web-app>
+    <servlet>
+      <servlet-name>MovieHiddenServlet</servlet-name>
+      <servlet-class>MovieHiddenServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MovieHiddenServlet</servlet-name>
+        <url-pattern>/moviehidden</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>RestoreMovieHiddenServlet</servlet-name>
+      <servlet-class>RestoreMovieHiddenServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RestoreMovieHiddenServlet</servlet-name>
+        <url-pattern>/restoremoviehidden</url-pattern>
+    </servlet-mapping>
+</web-app>
