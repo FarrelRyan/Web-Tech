@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>MovieForm</servlet-name>
+        <servlet-class>MovieForm</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MovieForm</servlet-name>
+        <url-pattern>/movieform</url-pattern>
+    </servlet-mapping>
+</web-app>
